@@ -6,7 +6,11 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "handlebars-helpers": "^0.8.0"
+    "handlebars-helpers": "^0.8.0",
+    "express": "~3.10.10",
+    "body-parser": "~3.10.10",
+    "debug": "~3.10.10",
+    "hbs": "~3.10.10"
   },
   "repository": {
     "type": "git",
