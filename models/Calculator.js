@@ -16,8 +16,8 @@ function Calculator (leftOperand, rightOperand, operator) {
             case "*":
                 result = this.leftOperand * this.rightOperand;
                 break;
-            case "/":
-                result = this.leftOperand / this.rightOperand;
+            case "pow":
+                result = Math.pow(this.leftOperand,this.rightOperand);
                 break;
         }
 
